@@ -1,0 +1,6 @@
+header .container{
+  width:970px;
+  height: 100px;
+  margin:0 auto;
+  background: url("image/top.png") center 0 no-repeat #ff0000;
+}
