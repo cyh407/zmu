@@ -1,0 +1,193 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>梦工厂教师管理页面</title>
+
+    <!-- Bootstrap -->
+    <link href="/Application/Admin/View/Public/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Application/Admin/View/Public/css/admin.css" charset="utf-8">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="/Application/Admin/View/Public/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="/Application/Admin/View/Public/js/ie-emulation-modes-warning.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img id="logo" src="/Application/Admin/View/Public/image/学士帽.jpg" alt="梦工厂学生管理系统" class="img-circle">
+      <a class="navbar-brand" href="#">梦工厂学生管理系统</a>
+    </div>
+
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="<?php echo U('Index/Index/logout');?>">退出登录</a></li>
+      </ul>
+      <!--form class="navbar-form navbar-right">
+        <input type="text" class="form-control" placeholder="Search...">
+      </form>
+    </div-->
+
+  </div>
+</nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3 col-md-2 sidebar">
+        <ul class="nav nav-sidebar">
+          <li class="active"><a href="<?php echo U('Admin/Notice/index');?>"><span class="icon glyphicon glyphicon-bullhorn"></span>通知公告</a></li>
+          <li><a href="<?php echo U('Admin/StudentInfo/index');?>"><span class="icon glyphicon glyphicon-education "></span>学生基本信息</a></li>
+          <li><a href="#"><span class="icon glyphicon glyphicon-queen"></span>学生干部管理</a></li>
+          <li><a href="#"><span class="icon glyphicon glyphicon-stats"></span>学生成绩</a></li>
+          <li><a href="#"><span class="icon glyphicon glyphicon-thumbs-up"></span>学生获奖</a></li>
+          <li><a href="#"><span class="icon glyphicon glyphicon-heart"></span>学生资助情况</a></li>
+          <li><a href="#"><span class="icon glyphicon glyphicon-th-list"></span>学生考勤</a></li>
+          <li><a href="#"><span class="icon glyphicon glyphicon-lamp"></span>学生请假</a></li>
+          <li><a href="#"><span class="icon glyphicon glyphicon-yen"></span>奖学金管理</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+        
+<form action="<?php echo U('Admin/StudentInfo/addHandle');?>" method="post" class="form-horizontal">
+  <!--姓名-->
+  <div class="form-group">
+    <label for="name" class="col-sm-2 control-label">姓名</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="name" id="name" placeholder="请填写姓名">
+    </div>
+  </div>
+  <!--学号-->
+  <div class="form-group">
+    <label for="studyno" class="col-sm-2 control-label">学号</label>
+    <div class="col-sm-10">
+      <input type="num" class="form-control" id="studyno" name="studyno" placeholder="1611740135">
+    </div>
+  </div>
+  <!--年级-->
+  <div class="form-group">
+    <label for="grade" class="col-sm-2 control-label">年级</label>
+    <div class="col-sm-10">
+      <input type="num" class="form-control" id="grade" name="grade" placeholder="2016">
+    </div>
+  </div>
+  <!--班级-->
+  <div class="form-group">
+    <label for="calss" class="col-sm-2 control-label">班级</label>
+    <div class="col-sm-10">
+      <input type="num" class="form-control" id="class" name="class" placeholder="医信">
+    </div>
+  </div>
+  <!--性别-->
+  <div class="form-group">
+    <label for="gender" class="col-sm-2 control-label">性别</label>
+    <div class="col-sm-10">
+      <label class="radio-inline">
+        <input type="radio" name="gender" id="gender" value="男"> 男
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="gender" id="gender" value="女" checked> 女
+      </label>
+    </div>
+  </div>
+  <!--政治面貌-->
+  <div class="form-group">
+    <label for="political" class="col-sm-2 control-label">政治面貌</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="political" name="political" placeholder="请输入该生政治面貌">
+    </div>
+  </div>
+  <!--出生日期-->
+  <div class="form-group">
+    <label for="birthday" class="col-sm-2 control-label">出生日期</label>
+    <div class="col-sm-10">
+      <input type="datetime" class="form-control" name="birthday" placeholder="2010-6-1">
+    </div>
+  </div>
+  <!--身份证号-->
+  <div class="form-group">
+    <label for="no" class="col-sm-2 control-label">身份证号</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="no" placeholder="请输入身份证号">
+    </div>
+  </div>
+  <!--家庭住址-->
+  <div class="form-group">
+    <label for="address" class="col-sm-2 control-label">家庭住址</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="address" placeholder="请输入家庭住址">
+    </div>
+  </div>
+  <!--家庭电话-->
+  <div class="form-group">
+    <label for="homephone" class="col-sm-2 control-label">家庭电话</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="homephone" placeholder="请输入家庭电话">
+    </div>
+  </div>
+  <!--个人电话-->
+  <div class="form-group">
+    <label for="phone" class="col-sm-2 control-label">个人电话</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="phone" placeholder="请输入个人电话">
+    </div>
+  </div>
+  <!--寝室号-->
+  <div class="form-group">
+    <label for="roomno" class="col-sm-2 control-label">寝室号</label>
+    <div class="col-sm-10">
+      <input type="num" class="form-control" name="roomno" placeholder="请输入寝室号">
+    </div>
+  </div>
+  <!--特长爱好-->
+  <div class="form-group">
+    <label for="speciality" class="col-sm-2 control-label">特长爱好</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="speciality" placeholder="请输入个人特长和爱好">
+    </div>
+  </div>
+  <!--高考成绩-->
+  <div class="form-group">
+    <label for="score" class="col-sm-2 control-label">高考成绩</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="score" placeholder="请输入高考成绩">
+    </div>
+  </div>
+  <!--是否贷款-->
+  <div class="form-group">
+    <label for="loan" class="col-sm-2 control-label">是否贷款</label>
+    <div class="col-sm-10">
+      <label class="radio-inline">
+        <input type="radio" name="loan" value="1"  checked>是
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="loan" value="0"> 否
+      </label>
+    </div>
+  </div>
+  <!--提交按钮-->
+      <button type="submit" class="col-md-12 btn btn-default">保存</button>
+</form>
+
+
+      </div>
+    </div>
+  </div>

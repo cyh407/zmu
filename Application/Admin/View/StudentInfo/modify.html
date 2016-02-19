@@ -1,0 +1,119 @@
+<form action="{:U('Admin/StudentInfo/modifyHandle')}" method="post" class="form-horizontal">
+  <!--学号-->
+  <div class="form-group">
+    <label for="studyno" class="col-sm-2 control-label">学号</label>
+    <div class="col-sm-10">
+      <input type="num" class="form-control" id="studyno" name="studyno" value="{$student.studyno}" readonly>
+    </div>
+  </div>
+  <!--姓名-->
+  <div class="form-group">
+    <label for="name" class="col-sm-2 control-label">姓名</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="name" id="name" value="{$student.name}">
+    </div>
+  </div>
+  <!--年级-->
+  <div class="form-group">
+    <label for="grade" class="col-sm-2 control-label">年级</label>
+    <div class="col-sm-10">
+      <input type="num" class="form-control" id="grade" name="grade" value="{$student.grade}">
+    </div>
+  </div>
+  <!--班级-->
+  <div class="form-group">
+    <label for="calss" class="col-sm-2 control-label">班级</label>
+    <div class="col-sm-10">
+      <input type="num" class="form-control" id="class" name="class" value="{$student.class}">
+    </div>
+  </div>
+  <!--性别-->
+  <div class="form-group">
+    <label for="gender" class="col-sm-2 control-label">性别</label>
+    <div class="col-sm-10">
+      <label class="radio-inline">
+        <input type="radio" name="gender" id="gender" value="男" <if condition='$student.gender eq "男"'>checked</if>> 男
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="gender" id="gender" value="女" <if condition='$student.gender eq "女"'>checked</if>> 女
+      </label>
+    </div>
+  </div>
+  <!--政治面貌-->
+  <div class="form-group">
+    <label for="political" class="col-sm-2 control-label">政治面貌</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="political" name="political" value="{$student.political}">
+    </div>
+  </div>
+  <!--出生日期-->
+  <div class="form-group">
+    <label for="birthday" class="col-sm-2 control-label">出生日期</label>
+    <div class="col-sm-10">
+      <input type="datetime" class="form-control" name="birthday" value="{$student.birthday|date="Y-m-d",###}">
+    </div>
+  </div>
+  <!--身份证号-->
+  <div class="form-group">
+    <label for="no" class="col-sm-2 control-label">身份证号</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="no" value="{$student.no}">
+    </div>
+  </div>
+  <!--家庭住址-->
+  <div class="form-group">
+    <label for="address" class="col-sm-2 control-label">家庭住址</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="address" value="{$student.address}">
+    </div>
+  </div>
+  <!--家庭电话-->
+  <div class="form-group">
+    <label for="homephone" class="col-sm-2 control-label">家庭电话</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="homephone" value="{$student.homephone}">
+    </div>
+  </div>
+  <!--个人电话-->
+  <div class="form-group">
+    <label for="phone" class="col-sm-2 control-label">个人电话</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="phone" value="{$student.phone}">
+    </div>
+  </div>
+  <!--寝室号-->
+  <div class="form-group">
+    <label for="roomno" class="col-sm-2 control-label">寝室号</label>
+    <div class="col-sm-10">
+      <input type="num" class="form-control" name="roomno" value="{$student.roomno}">
+    </div>
+  </div>
+  <!--特长爱好-->
+  <div class="form-group">
+    <label for="speciality" class="col-sm-2 control-label">特长爱好</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="speciality" value="{$student.speciality}">
+    </div>
+  </div>
+  <!--高考成绩-->
+  <div class="form-group">
+    <label for="score" class="col-sm-2 control-label">高考成绩</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="score" value="{$student.score}">
+    </div>
+  </div>
+  <!--是否贷款-->
+  <div class="form-group">
+    <label for="loan" class="col-sm-2 control-label">是否贷款</label>
+    <div class="col-sm-10">
+      <label class="radio-inline">
+        <input type="radio" name="loan" value="1"  <if condition='$student.loan eq 1'>checked</if>>是
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="loan" value="0" <if condition='$student.loan eq 0'>checked</if>> 否
+      </label>
+    </div>
+  </div>
+  <!--提交按钮-->
+      <button type="submit" class="col-md-12 btn btn-default">保存</button>
+</form>

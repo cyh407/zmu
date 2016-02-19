@@ -1,10 +1,11 @@
 <?php
 return array(
 	//'配置项'=>'配置值'
+	'DB_TYPE'=>'mysql',
 	'DB_HOST'=>'127.0.0.1',
 	'DB_USER'=>'root',
 	'DB_PASSWORD'=>'',
-	'DB_NAME'=>'zmu',
+	'DB_NAME'=>'zmuStudent',
 	'DB_PREFIX'=>'zmu_',
 	//为静态后缀为空
 	'URL_HTML_SUFFIX'=>'',
@@ -15,7 +16,7 @@ return array(
 	'ACTION_SUFFIX'         =>  '', // 操作方法后缀
 	'MULTI_MODULE'          =>  true, // 是否允许多模块 如果为false 则必须设置 DEFAULT_MODULE
 	'MODULE_DENY_LIST'      =>  array('Common','Runtime'), // 禁止访问的模块列表
-	'MODULE_ALLOW_LIST'     =>  array('Home','Admin'),    // 允许访问的模块列表
+	'MODULE_ALLOW_LIST'     =>  array('Home','Admin','Index'),    // 允许访问的模块列表
 
 	'DEFAULT_M_LAYER'       =>  'Model', // 默认的模型层名称
 	'DEFAULT_C_LAYER'       =>  'Controller', // 默认的控制器层名称

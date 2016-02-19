@@ -1,0 +1,29 @@
+
+<h2 class="sub-header ">学生基本信息<a href="{:U('Admin/StudentInfo/add')}" type="button" class="add btn btn-primary">添加学生</a></h2>
+
+  <table class="table table-bordered table-hover">
+    <thead>
+      <tr>
+        <th>姓名</th>
+        <th>学号</th>
+        <th>年级</th>
+        <th>班级</th>
+        <th>操作</th>
+      </tr>
+    </thead>
+    <tbody>
+      <foreach name="student" item="v">
+        <tr>
+          <td>{$v.name}</td>
+          <td>{$v.studyno}</td>
+          <td>{$v.grade}</td>
+          <td>{$v.class}</td>
+          <td>
+            <a class="btn btn-sm btn-danger" href="{:U('Admin/StudentInfo/delete',array('studyno'=>$v['studyno']))}">删除</a>
+            <a class="btn btn-sm btn-success" href="{:U('Admin/StudentInfo/modify',array('studyno'=>$v['studyno']))}">修改</a>
+          </td>
+        </tr>
+      </foreach>
+    </tbody>
+  </table>
+  <div class="page">{$page}</div>

@@ -72,7 +72,7 @@ body {
  */
 
 .main {
-  padding: 20px;
+  padding: 10px;
 }
 @media (min-width: 768px) {
   .main {
@@ -123,4 +123,33 @@ body {
 thead th{
   background-color: #31708f;
   color:#fff;
+}
+.table>tbody>tr>td{
+  vertical-align: middle;
+}
+a{
+  color:#000;
+}
+
+.page .num,.page .prev,.page .next,.page .current{
+  display:inline-block;
+  margin:3px;
+  background-color: #DDD;
+  width:20px;
+  height: 20px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  text-align: center;
+}
+.page .prev,.page .next{
+  width:50px;
+}
+.page .current{
+  color:#FFF;
+  background-color: #333;
+}
+
+.add{
+  margin-left: 20px;
 }

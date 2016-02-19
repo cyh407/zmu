@@ -1,0 +1,13 @@
+<style type="text/css">
+  .title{
+    text-align:center;
+  }
+  .time{
+    text-align:center;
+  }
+</style>
+<h1 class="title">{$notice['title']}</h1>
+<h6 class="time">{$notice['time']|date='Y-m-d H:i',###}</h6>
+<div class="content">
+  {$notice['content']|htmlspecialchars_decode|stripslashes}
+</div>

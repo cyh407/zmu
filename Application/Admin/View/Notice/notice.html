@@ -1,0 +1,28 @@
+
+	<js href="__PUBLIC__/js/jquery/jquery-1.12.0.js" />
+  <js href="__PUBLIC__/ueditor/ueditor.config.js" />
+  <js href="__PUBLIC__/ueditor/ueditor.all.min.js" />
+  <script>
+  $(function(){
+    window.UEDITOR_CONFIG.initialFrameHeight=300;//编辑器的高度
+      var ue = UE.getEditor('content',{
+        //initialFrameWeight:100%,
+        autoHeightEnabled: true,
+        sourceEditor: false,
+        wordCount: false,               //关闭字数统计
+        elementPathEnabled: false,      //关闭elementPath
+        initialFrameWidth: '100%'
+      });
+  })
+  </script>
+	<form method="post" action="{:U('Admin/Notice/noticeHandle')}">
+	  <div class="form-group">
+	    <label for="title">通知公告名称</label>
+	    <input type="input" name="title" class="form-control" id="title" placeholder="通知公告名称">
+	  </div>
+	  <div class="form-group">
+	    <label for="content">通知公告内容</label>
+	    <script id="content" name="content" type="text/plain">通知公告内容</script>
+	  </div>
+	  <button type="submit" class="btn btn-default col-md-12">提交保存</button>
+	</form>
