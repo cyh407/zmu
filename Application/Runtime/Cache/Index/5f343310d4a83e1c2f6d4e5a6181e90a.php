@@ -85,7 +85,7 @@
 <div id="infoBox">
 		<div id="info">
 			<div class="header">
-				<div class="header_left"><img src="/Application/Index/View/Public/images/loginlogo.png"></div>
+				<div class="header_left"><img style="width:100px;height:100px;" src="/Application/Index/View/Public/Image/login_logo.png"></div>
 				<div class="header_right"><img src="/Application/Index/View/Public/images/companylogo.png"></div>
 				<div class="clear"></div>
 			</div>

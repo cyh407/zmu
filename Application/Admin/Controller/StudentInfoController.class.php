@@ -3,12 +3,12 @@ namespace Admin\Controller;
 use Think\Controller;
 class StudentInfoController extends CommonController {
   //查看学生
-  public function index(){
+  public function index($p=0){
     $db = M("student");
 
     $page=getpage($db,array(),25);
     $this->page=$page->show();
-    $this->student = $db->where(array('isdelete'=>0))->field('studyno,grade,class,name')->order('addtime desc')->select();
+    $this->student = $db->where(array('isdelete'=>0))->field('studyno,grade,class,name')->page($p.',50')->order('addtime desc')->select();
     $this->display();
   }
   //添加学生

@@ -21,6 +21,11 @@
       <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/Application/Admin/View/Public/js/jquery/jquery-1.12.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/Application/Admin/View/Public/js/bootstrap.min.js"></script>
   </head>
   <body>
 
@@ -66,7 +71,27 @@
       </div>
       <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
-        
+        <form action="<?php echo U('Admin/master/addHandle');?>" method="post" class="form-horizontal">
+  <!--姓名-->
+  <div class="form-group">
+    <label for="name" class="col-sm-2 control-label">职务</label>
+    <div class="col-sm-10">
+      <select name='id' class="form-control">
+        <?php if(is_array($duty)): foreach($duty as $key=>$d): ?><option value="<?php echo ($d["id"]); ?>"><?php echo ($d["name"]); ?></option><?php endforeach; endif; ?>
+      </select>
+    </div>
+  </div>
+  <!--学号-->
+  <div class="form-group">
+    <label for="studyno" class="col-sm-2 control-label">学号</label>
+    <div class="col-sm-10">
+      <input type="num" class="form-control" name="studyno" placeholder="1611740135">
+    </div>
+  </div>
+  <!--提交按钮-->
+  <button type="submit" class="col-md-12 btn btn-default">保存</button>
+</form>
+
 
       </div>
     </div>

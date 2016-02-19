@@ -1,0 +1,22 @@
+<form action="{:U('Admin/master/addHandle')}" method="post" class="form-horizontal">
+  <!--姓名-->
+  <div class="form-group">
+    <label for="name" class="col-sm-2 control-label">职务</label>
+    <div class="col-sm-10">
+      <select name='id' class="form-control">
+        <foreach name='duty' item="d">
+          <option value="{$d.id}">{$d.name}</option>
+        </foreach>
+      </select>
+    </div>
+  </div>
+  <!--学号-->
+  <div class="form-group">
+    <label for="studyno" class="col-sm-2 control-label">学号</label>
+    <div class="col-sm-10">
+      <input type="num" class="form-control" name="studyno" placeholder="1611740135">
+    </div>
+  </div>
+  <!--提交按钮-->
+  <button type="submit" class="col-md-12 btn btn-default">保存</button>
+</form>

@@ -21,6 +21,11 @@
       <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/Application/Admin/View/Public/js/jquery/jquery-1.12.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/Application/Admin/View/Public/js/bootstrap.min.js"></script>
   </head>
   <body>
 
@@ -55,7 +60,7 @@
         <ul class="nav nav-sidebar">
           <li class="active"><a href="<?php echo U('Admin/Notice/index');?>"><span class="icon glyphicon glyphicon-bullhorn"></span>通知公告</a></li>
           <li><a href="<?php echo U('Admin/StudentInfo/index');?>"><span class="icon glyphicon glyphicon-education "></span>学生基本信息</a></li>
-          <li><a href="#"><span class="icon glyphicon glyphicon-queen"></span>学生干部管理</a></li>
+          <li><a href="<?php echo U('Admin/Master/index');?>"><span class="icon glyphicon glyphicon-queen"></span>学生干部管理</a></li>
           <li><a href="#"><span class="icon glyphicon glyphicon-stats"></span>学生成绩</a></li>
           <li><a href="#"><span class="icon glyphicon glyphicon-thumbs-up"></span>学生获奖</a></li>
           <li><a href="#"><span class="icon glyphicon glyphicon-heart"></span>学生资助情况</a></li>

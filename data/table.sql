@@ -58,9 +58,19 @@ CREATE TABLE `zmu_duty` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` char(20) NOT NULL,
   PRIMARY KEY (`id`)
+  UNIQUE KEY `name` (`name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*学生干部职务表*/
 CREATE TABLE `zmu_master` (
   `id` int(10) unsigned NOT NULL,
   `studyno` char(10)/*学号*/
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*学生获奖表*/
+CREATE TABLE `zmu_certificate` (
+  `id` int(10) unsigned NOT NULL,
+  `name` varchar(19) not null,/*获奖名称*/
+  `studyno` char(10),/*学号*/
+  `image` varchar(50),/*奖状或证书图片的地址*/
+  `smallImage` varchar(50)/*缩略图名称*/
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

@@ -1856,3 +1856,2928 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
 
+[ 2016-02-19T14:30:00+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-02-19T14:36:13+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 84 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-02-19T14:36:34+08:00 ] 127.0.0.1 /Admin/Notice/notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-02-19T14:42:07+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-02-19T14:50:10+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 84 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-02-19T14:50:12+08:00 ] 127.0.0.1 /Admin/Notice/notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2016-02-19T14:54:05+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 84 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2016-02-19T14:54:06+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 84 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2016-02-19T14:54:47+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 84 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-02-19T14:56:17+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2016-02-19T14:57:00+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2016-02-19T14:57:08+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+ERR: 参数错误或者未定义:dutyName
+
+[ 2016-02-19T14:58:04+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+ERR: 参数错误或者未定义:dutyName
+
+[ 2016-02-19T14:58:19+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-02-19T14:58:28+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+NOTIC: [8] Undefined variable: dutyName /Users/cyh/Desktop/zmu/Application/Admin/Controller/MasterController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-02-19T14:59:12+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2016-02-19T15:02:08+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001263s ]
+
+[ 2016-02-19T15:02:15+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-02-19T15:03:17+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2016-02-19T15:03:23+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-02-19T15:04:09+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-02-19T15:04:17+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-02-19T15:04:24+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-02-19T15:04:47+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2016-02-19T15:04:51+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-02-19T15:06:31+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-02-19T15:06:33+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-02-19T15:06:58+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2016-02-19T15:06:59+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-02-19T15:06:59+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-02-19T15:07:03+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-02-19T15:07:06+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2016-02-19T15:07:10+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-02-19T15:07:18+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-02-19T15:07:22+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2016-02-19T15:07:23+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2016-02-19T15:07:27+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-02-19T15:09:53+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-02-19T15:09:57+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-02-19T15:10:04+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-02-19T15:11:28+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2016-02-19T15:17:18+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+
+[ 2016-02-19T15:19:25+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-02-19T15:19:37+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-02-19T15:19:47+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `zmu_duty` [ RunTime:0.0109s ]
+SQL: INSERT INTO `zmu_duty` (`name`) VALUES ('班长') [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant “” - assumed '“”' /Users/cyh/Desktop/zmu/Application/Admin/Controller/MasterController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-02-19T15:21:33+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `zmu_duty` [ RunTime:0.0099s ]
+SQL: INSERT INTO `zmu_duty` (`name`) VALUES ('asdf') [ RunTime:0.0021s ]
+NOTIC: [8] Use of undefined constant “” - assumed '“”' /Users/cyh/Desktop/zmu/Application/Admin/Controller/MasterController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2016-02-19T15:22:47+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `zmu_duty` [ RunTime:0.0096s ]
+SQL: INSERT INTO `zmu_duty` (`name`) VALUES ('副班长') [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant “” - assumed '“”' /Users/cyh/Desktop/zmu/Application/Admin/Controller/MasterController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2016-02-19T15:22:52+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2016-02-19T15:23:00+08:00 ] 127.0.0.1 /Admin/Master/addDuty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `zmu_duty` [ RunTime:0.0097s ]
+SQL: INSERT INTO `zmu_duty` (`name`) VALUES ('学习委员') [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant “” - assumed '“”' /Users/cyh/Desktop/zmu/Application/Admin/Controller/MasterController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2016-02-19T15:26:15+08:00 ] 127.0.0.1 /Admin/Notice/notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-02-19T15:28:27+08:00 ] 127.0.0.1 /Admin/Notice/notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2016-02-19T15:28:34+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2016-02-19T15:28:35+08:00 ] 127.0.0.1 /Admin/Master/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-02-19T15:28:39+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-02-19T15:28:42+08:00 ] 127.0.0.1 /Admin/Master/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2016-02-19T15:28:49+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2016-02-19T15:28:52+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2016-02-19T15:28:53+08:00 ] 127.0.0.1 /Admin/StudentInfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zmu_student` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `studyno`,`grade`,`class`,`name` FROM `zmu_student` WHERE `isdelete` = 0 ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2016-02-19T15:28:53+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-02-19T15:29:00+08:00 ] 127.0.0.1 /Admin/Master/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-02-19T15:29:02+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-02-19T15:36:15+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-02-19T15:36:16+08:00 ] 127.0.0.1 /Admin/Notice/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zmu_notice` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zmu_notice` WHERE `delete` = 0 ORDER BY time DESC LIMIT 0,25   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-02-19T15:36:17+08:00 ] 127.0.0.1 /Admin/StudentInfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zmu_student` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `studyno`,`grade`,`class`,`name` FROM `zmu_student` WHERE `isdelete` = 0 ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2016-02-19T15:36:18+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2016-02-19T15:36:19+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-02-19T15:36:21+08:00 ] 127.0.0.1 /Admin/Master/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `zmu_duty` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `zmu_duty`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2016-02-19T15:37:06+08:00 ] 127.0.0.1 /Admin/Master/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `zmu_duty` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `zmu_duty`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-02-19T15:37:07+08:00 ] 127.0.0.1 /Admin/Notice/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zmu_notice` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zmu_notice` WHERE `delete` = 0 ORDER BY time DESC LIMIT 0,25   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2016-02-19T15:37:08+08:00 ] 127.0.0.1 /Admin/StudentInfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zmu_student` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `studyno`,`grade`,`class`,`name` FROM `zmu_student` WHERE `isdelete` = 0 ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-02-19T15:37:09+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2016-02-19T15:37:10+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-02-19T15:37:11+08:00 ] 127.0.0.1 /Admin/Master/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `zmu_duty` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_duty`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-02-19T15:37:56+08:00 ] 127.0.0.1 /Admin/Master/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `zmu_duty` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `zmu_duty`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-02-19T15:41:28+08:00 ] 127.0.0.1 /Admin/StudentInfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zmu_student` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `studyno`,`grade`,`class`,`name` FROM `zmu_student` WHERE `isdelete` = 0 ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-02-19T15:41:33+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-02-19T15:41:37+08:00 ] 127.0.0.1 /Admin/Master/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `zmu_duty` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zmu_duty`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2016-02-19T15:41:41+08:00 ] 127.0.0.1 /Admin/master/addHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `zmu_master` [ RunTime:0.0015s ]
+SQL: INSERT INTO `zmu_master` (`studyno`) VALUES ('1611013467') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2016-02-19T15:41:42+08:00 ] 127.0.0.1 /Admin/Master/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `zmu_duty` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `zmu_duty`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-02-19T15:41:46+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-02-19T15:44:26+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-02-19T15:44:27+08:00 ] 127.0.0.1 /Admin/Master/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `zmu_duty` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `zmu_duty`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-02-19T15:44:30+08:00 ] 127.0.0.1 /Admin/StudentInfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zmu_student` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `studyno`,`grade`,`class`,`name` FROM `zmu_student` WHERE `isdelete` = 0 ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-02-19T15:44:34+08:00 ] 127.0.0.1 /Admin/StudentInfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zmu_student` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `studyno`,`grade`,`class`,`name` FROM `zmu_student` WHERE `isdelete` = 0 ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-02-19T15:44:35+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-02-19T15:44:36+08:00 ] 127.0.0.1 /Admin/Master/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `zmu_duty` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `zmu_duty`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2016-02-19T15:44:39+08:00 ] 127.0.0.1 /Admin/master/addHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_student` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_master` [ RunTime:0.0014s ]
+SQL: INSERT INTO `zmu_master` (`id`,`studyno`) VALUES ('1','1611013467') [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2016-02-19T15:44:40+08:00 ] 127.0.0.1 /Admin/Master/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `zmu_duty` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `zmu_duty`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-02-19T15:48:21+08:00 ] 127.0.0.1 /Admin/StudentInfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zmu_student` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `studyno`,`grade`,`class`,`name` FROM `zmu_student` WHERE `isdelete` = 0 ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-02-19T15:48:23+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-02-19T15:48:24+08:00 ] 127.0.0.1 /Admin/Master/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `zmu_duty` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `zmu_duty`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-02-19T15:48:32+08:00 ] 127.0.0.1 /Admin/master/addHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '11111' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+
+[ 2016-02-19T15:48:37+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2016-02-19T15:48:39+08:00 ] 127.0.0.1 /Admin/StudentInfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zmu_student` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `studyno`,`grade`,`class`,`name` FROM `zmu_student` WHERE `isdelete` = 0 ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-02-19T15:48:44+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2016-02-19T15:48:46+08:00 ] 127.0.0.1 /Admin/Master/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `zmu_duty` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `zmu_duty`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-02-19T15:48:49+08:00 ] 127.0.0.1 /Admin/master/addHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_master` [ RunTime:0.0010s ]
+SQL: INSERT INTO `zmu_master` (`id`,`studyno`) VALUES ('1','1611013467') [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2016-02-19T15:48:50+08:00 ] 127.0.0.1 /Admin/Master/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `zmu_duty` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_duty`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-02-19T15:48:52+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: master /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 89 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2016-02-19T15:56:52+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: select zmu_duty.name as dutyName,zmu_student.name,zmu_student.grade,zmu_student.`class` from zmu_master left join zmu_duty on zmu_master.id=zmu_duty.id left join zmu_student on zmu_master.studyno = zmu_student.studyno [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index:  /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 91 行.
+NOTIC: [8] Undefined index:  /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 91 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-02-19T15:59:40+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: select zmu_duty.name as dutyName,zmu_student.name,zmu_student.grade,zmu_student.`class` from zmu_master left join zmu_duty on zmu_master.id=zmu_duty.id left join zmu_student on zmu_master.studyno = zmu_student.studyno [ RunTime:0.0006s ]
+
+[ 2016-02-19T15:59:56+08:00 ] 127.0.0.1 /Admin/StudentInfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zmu_student` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `studyno`,`grade`,`class`,`name` FROM `zmu_student` WHERE `isdelete` = 0 ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2016-02-19T15:59:58+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: select zmu_duty.name as dutyName,zmu_student.name,zmu_student.grade,zmu_student.`class` from zmu_master left join zmu_duty on zmu_master.id=zmu_duty.id left join zmu_student on zmu_master.studyno = zmu_student.studyno [ RunTime:0.0004s ]
+
+[ 2016-02-19T16:03:03+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: select zmu_duty.name as dutyName,zmu_student.name,zmu_student.grade,zmu_student.`class` from zmu_master left join zmu_duty on zmu_master.id=zmu_duty.id left join zmu_student on zmu_master.studyno = zmu_student.studyno [ RunTime:0.0004s ]
+
+[ 2016-02-19T16:03:18+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: select zmu_duty.name as dutyName,zmu_student.name,zmu_student.grade,zmu_student.`class` from zmu_master left join zmu_duty on zmu_master.id=zmu_duty.id left join zmu_student on zmu_master.studyno = zmu_student.studyno [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: dutyName /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 92 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2016-02-19T16:03:37+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: select zmu_duty.name as dutyName,zmu_student.name,zmu_student.grade,zmu_student.`class` from zmu_master left join zmu_duty on zmu_master.id=zmu_duty.id left join zmu_student on zmu_master.studyno = zmu_student.studyno [ RunTime:0.0004s ]
+
+[ 2016-02-19T16:04:07+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: select zmu_duty.name as dutyName,zmu_student.name,zmu_student.grade,zmu_student.`class` from zmu_master left join zmu_duty on zmu_master.id=zmu_duty.id left join zmu_student on zmu_master.studyno = zmu_student.studyno [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-02-19T16:04:20+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: select zmu_duty.name as dutyName,zmu_student.name,zmu_student.grade,zmu_student.`class` from zmu_master left join zmu_duty on zmu_master.id=zmu_duty.id left join zmu_student on zmu_master.studyno = zmu_student.studyno [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2016-02-19T16:07:23+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: select zmu_duty.name as dutyName,zmu_master.studyno,zmu_student.name,zmu_student.grade,zmu_student.`class` from zmu_master left join zmu_duty on zmu_master.id=zmu_duty.id left join zmu_student on zmu_master.studyno = zmu_student.studyno [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2016-02-19T16:08:22+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: select zmu_duty.name as dutyName,zmu_master.studyno,zmu_student.name,zmu_student.grade,zmu_student.`class` from zmu_master left join zmu_duty on zmu_master.id=zmu_duty.id left join zmu_student on zmu_master.studyno = zmu_student.studyno [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-02-19T16:08:23+08:00 ] 127.0.0.1 /Admin/master/delete/studyno/1611013467
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-02-19T16:10:12+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: select zmu_duty.name as dutyName,zmu_master.studyno,zmu_student.name,zmu_student.grade,zmu_student.`class` from zmu_master left join zmu_duty on zmu_master.id=zmu_duty.id left join zmu_student on zmu_master.studyno = zmu_student.studyno [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-02-19T16:10:14+08:00 ] 127.0.0.1 /Admin/StudentInfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zmu_student` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `studyno`,`grade`,`class`,`name` FROM `zmu_student` WHERE `isdelete` = 0 ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-02-19T16:10:14+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: select zmu_duty.name as dutyName,zmu_master.studyno,zmu_student.name,zmu_student.grade,zmu_student.`class` from zmu_master left join zmu_duty on zmu_master.id=zmu_duty.id left join zmu_student on zmu_master.studyno = zmu_student.studyno [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2016-02-19T16:10:16+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: select zmu_duty.name as dutyName,zmu_master.studyno,zmu_student.name,zmu_student.grade,zmu_student.`class` from zmu_master left join zmu_duty on zmu_master.id=zmu_duty.id left join zmu_student on zmu_master.studyno = zmu_student.studyno [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-02-19T16:15:14+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: select zmu_duty.name as dutyName,zmu_master.studyno,zmu_student.name,zmu_student.grade,zmu_student.`class` from zmu_master left join zmu_duty on zmu_master.id=zmu_duty.id left join zmu_student on zmu_master.studyno = zmu_student.studyno [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-02-19T16:15:51+08:00 ] 127.0.0.1 /Admin/Master/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: select zmu_duty.name as dutyName,zmu_master.studyno,zmu_student.name,zmu_student.grade,zmu_student.`class` from zmu_master left join zmu_duty on zmu_master.id=zmu_duty.id left join zmu_student on zmu_master.studyno = zmu_student.studyno [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/f43b5e98c1255207c47d55b925ca8986.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-02-19T16:15:52+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-02-19T16:16:40+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-02-19T16:16:42+08:00 ] 127.0.0.1 /Admin/Score/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载控制器:Score
+
+[ 2016-02-19T16:16:45+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-02-19T16:16:46+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-02-19T16:19:29+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+ERR: 1146:Table 'zmustudent.zmu_certificate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zmu_certificate`
+ERR: 1146:Table 'zmustudent.zmu_certificate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zmu_certificate`
+
+[ 2016-02-19T16:19:45+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+ERR: 1146:Table 'zmustudent.zmu_certificate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zmu_certificate`
+ERR: 1146:Table 'zmustudent.zmu_certificate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zmu_certificate`
+
+[ 2016-02-19T16:19:50+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+ERR: 1146:Table 'zmustudent.zmu_certificate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zmu_certificate`
+ERR: 1146:Table 'zmustudent.zmu_certificate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zmu_certificate`
+
+[ 2016-02-19T16:21:42+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+ERR: 1146:Table 'zmustudent.zmu_certificate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zmu_certificate`
+ERR: 1146:Table 'zmustudent.zmu_certificate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zmu_certificate`
+
+[ 2016-02-19T16:22:07+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: notice /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/772d04b9d7f12fe033f54d84242ac4ab.php 第 86 行.
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/772d04b9d7f12fe033f54d84242ac4ab.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2016-02-19T16:26:41+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/772d04b9d7f12fe033f54d84242ac4ab.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-02-19T16:26:41+08:00 ] 127.0.0.1 /Admin/Certificate/...
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+ERR: 非法操作:..
+
+[ 2016-02-19T16:29:08+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/772d04b9d7f12fe033f54d84242ac4ab.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-02-19T16:29:08+08:00 ] 127.0.0.1 /Admin/Certificate/...
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+ERR: 非法操作:..
+
+[ 2016-02-19T16:30:13+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/772d04b9d7f12fe033f54d84242ac4ab.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2016-02-19T16:30:13+08:00 ] 127.0.0.1 /Admin/Certificate/...
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+ERR: 非法操作:..
+
+[ 2016-02-19T16:30:35+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/772d04b9d7f12fe033f54d84242ac4ab.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-02-19T16:30:35+08:00 ] 127.0.0.1 /Admin/Certificate/...
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+ERR: 非法操作:..
+
+[ 2016-02-19T16:30:50+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/772d04b9d7f12fe033f54d84242ac4ab.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2016-02-19T16:30:50+08:00 ] 127.0.0.1 /Admin/Certificate/...
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+ERR: 非法操作:..
+
+[ 2016-02-19T16:31:37+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/772d04b9d7f12fe033f54d84242ac4ab.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-02-19T16:31:37+08:00 ] 127.0.0.1 /Admin/Certificate/...
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+ERR: 非法操作:..
+
+[ 2016-02-19T16:31:49+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/772d04b9d7f12fe033f54d84242ac4ab.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-02-19T16:31:49+08:00 ] 127.0.0.1 /Admin/Certificate/...
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+ERR: 非法操作:..
+
+[ 2016-02-19T16:32:55+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/772d04b9d7f12fe033f54d84242ac4ab.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-02-19T16:32:55+08:00 ] 127.0.0.1 /Admin/Certificate/...
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+ERR: 非法操作:..
+
+[ 2016-02-19T16:33:01+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: page /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Admin/772d04b9d7f12fe033f54d84242ac4ab.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2016-02-19T16:33:01+08:00 ] 127.0.0.1 /Admin/Certificate/...
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+ERR: 非法操作:..
+
+[ 2016-02-19T16:38:44+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zmu_certificate` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: p /Users/cyh/Desktop/zmu/Application/Admin/Controller/CertificateController.class.php 第 10 行.
+SQL: SELECT * FROM `zmu_certificate` LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-02-19T16:38:44+08:00 ] 127.0.0.1 /Admin/Certificate/...
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+ERR: 非法操作:..
+
+[ 2016-02-19T16:38:46+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zmu_certificate` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: p /Users/cyh/Desktop/zmu/Application/Admin/Controller/CertificateController.class.php 第 10 行.
+SQL: SELECT * FROM `zmu_certificate` LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-02-19T16:38:46+08:00 ] 127.0.0.1 /Admin/Certificate/...
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+ERR: 非法操作:..
+
+[ 2016-02-19T16:38:48+08:00 ] 127.0.0.1 /Admin/Certificate/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zmu_certificate` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: p /Users/cyh/Desktop/zmu/Application/Admin/Controller/CertificateController.class.php 第 10 行.
+SQL: SELECT * FROM `zmu_certificate` LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-02-19T16:38:48+08:00 ] 127.0.0.1 /Admin/Certificate/...
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Use of undefined constant Application - assumed 'Application' /Users/cyh/Desktop/zmu/Application/Admin/Conf/config.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+ERR: 非法操作:..
+

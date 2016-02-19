@@ -21,6 +21,11 @@
       <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/Application/Admin/View/Public/js/jquery/jquery-1.12.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/Application/Admin/View/Public/js/bootstrap.min.js"></script>
   </head>
   <body>
 
@@ -56,8 +61,8 @@
           <li class="active"><a href="<?php echo U('Admin/Notice/index');?>"><span class="icon glyphicon glyphicon-bullhorn"></span>通知公告</a></li>
           <li><a href="<?php echo U('Admin/StudentInfo/index');?>"><span class="icon glyphicon glyphicon-education "></span>学生基本信息</a></li>
           <li><a href="<?php echo U('Admin/Master/index');?>"><span class="icon glyphicon glyphicon-queen"></span>学生干部管理</a></li>
-          <li><a href="#"><span class="icon glyphicon glyphicon-stats"></span>学生成绩</a></li>
-          <li><a href="#"><span class="icon glyphicon glyphicon-thumbs-up"></span>学生获奖</a></li>
+          <li><a href="<?php echo U('Admin/Score/index');?>"><span class="icon glyphicon glyphicon-stats"></span>学生成绩</a></li>
+          <li><a href="<?php echo U('Admin/Certificate/index');?>"><span class="icon glyphicon glyphicon-thumbs-up"></span>学生获奖</a></li>
           <li><a href="#"><span class="icon glyphicon glyphicon-heart"></span>学生资助情况</a></li>
           <li><a href="#"><span class="icon glyphicon glyphicon-th-list"></span>学生考勤</a></li>
           <li><a href="#"><span class="icon glyphicon glyphicon-lamp"></span>学生请假</a></li>
@@ -67,6 +72,56 @@
       <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
         
+<h2 class="sub-header ">学生获奖 <a href="<?php echo U('Admin/Notice/notice');?>" type="button" class="add btn btn-primary">添加奖状或证书</a></h2>
+
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="..." alt="..." style="height: 200px; width: 100%; display: block;">
+      <div class="caption">
+        <h3>三好学生</h3>
+        <p>张三</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="..." alt="..." style="height: 200px; width: 100%; display: block;">
+      <div class="caption">
+        <h3>三好学生</h3>
+        <p>张三</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="..." alt="..." style="height: 200px; width: 100%; display: block;">
+      <div class="caption">
+        <h3>三好学生</h3>
+        <p>张三</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="..." alt="..." style="height: 200px; width: 100%; display: block;">
+      <div class="caption">
+        <h3>三好学生</h3>
+        <p>张三</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="page"><?php echo ($page); ?></div>
+
 
       </div>
     </div>

@@ -21,6 +21,11 @@
       <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/Application/Admin/View/Public/js/jquery/jquery-1.12.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/Application/Admin/View/Public/js/bootstrap.min.js"></script>
   </head>
   <body>
 
@@ -56,8 +61,8 @@
           <li class="active"><a href="<?php echo U('Admin/Notice/index');?>"><span class="icon glyphicon glyphicon-bullhorn"></span>通知公告</a></li>
           <li><a href="<?php echo U('Admin/StudentInfo/index');?>"><span class="icon glyphicon glyphicon-education "></span>学生基本信息</a></li>
           <li><a href="<?php echo U('Admin/Master/index');?>"><span class="icon glyphicon glyphicon-queen"></span>学生干部管理</a></li>
-          <li><a href="#"><span class="icon glyphicon glyphicon-stats"></span>学生成绩</a></li>
-          <li><a href="#"><span class="icon glyphicon glyphicon-thumbs-up"></span>学生获奖</a></li>
+          <li><a href="<?php echo U('Admin/Score/index');?>"><span class="icon glyphicon glyphicon-stats"></span>学生成绩</a></li>
+          <li><a href="<?php echo U('Admin/Certificate/index');?>"><span class="icon glyphicon glyphicon-thumbs-up"></span>学生获奖</a></li>
           <li><a href="#"><span class="icon glyphicon glyphicon-heart"></span>学生资助情况</a></li>
           <li><a href="#"><span class="icon glyphicon glyphicon-th-list"></span>学生考勤</a></li>
           <li><a href="#"><span class="icon glyphicon glyphicon-lamp"></span>学生请假</a></li>
@@ -67,6 +72,67 @@
       <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
         
+<h2 class="sub-header ">学生干部
+  <button type="button" class="add btn btn-primary" data-toggle="modal" data-target="#addDutyModal">添加干部种类</button>
+  <a href="<?php echo U('Admin/Master/add');?>" type="button" class="add btn btn-primary">添加学生干部</a>
+</h2>
+
+  <table class="table table-bordered table-hover">
+    <thead>
+      <tr>
+        <th>职务</th>
+        <th>姓名</th>
+        <th>班级</th>
+        <th>年级</th>
+        <th>操作</th>
+      </tr>
+    </thead>
+    <tbody>
+      <?php if(is_array($master)): foreach($master as $key=>$v): ?><tr>
+          <td><?php echo ($v["dutyname"]); ?></td>
+          <td><?php echo ($v["name"]); ?></td>
+          <td><?php echo ($v["grade"]); ?></td>
+          <td><?php echo ($v["class"]); ?></td>
+          <td><a href="<?php echo U('Admin/master/delete',array('studyno'=>$v['studyno']));?>" type="button" class="btn btn-sm btn-danger">删除</a></td>
+        </tr><?php endforeach; endif; ?>
+    </tbody>
+  </table>
+  <div class="page"><?php echo ($page); ?></div>
+<div id="addDutyModal" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">添加学生干部职务</h4>
+      </div>
+      <div class="modal-body">
+        <div class="input-group">
+          <span class="input-group-addon">职务名称：</span>
+          <input type="text" class="form-control" id="dutyName" placeholder="班长" aria-describedby="basic-addon1">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button id="addDuty" type="button" class="btn btn-primary">保存</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<script type="text/javascript">
+  $('#addDuty').click(function(){
+    var $dutyNameInput = $('#dutyName');
+    var dutyName = $dutyNameInput.val();
+    var $close = $('')
+    if(!dutyName){
+      $dutyNameInput.focus();
+      alert('职务名称不能为空');
+    }
+    $.post("<?php echo U('Admin/Master/addDuty');?>",{"dutyName":dutyName},function(result){
+      alert('添加成功');
+    })
+    $('#addDutyModal').modal('hide')
+  });
+</script>
+
 
       </div>
     </div>
