@@ -50,7 +50,7 @@ class indexController extends Controller {
 		if($user['dutyid'] == 1){//管理员
 			$this->redirect('Admin/Index/index');
 		}else if($user['dutyid'] == 2){//学生
-
+			$this->redirect('Home/Index/index');
 		}
 	}
 

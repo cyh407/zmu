@@ -1,0 +1,56 @@
+<form action="{:U('Admin/Attendance/addHandle')}" method="post" class="form-horizontal">
+  <!--学号-->
+  <div class="form-group">
+    <label for="studyno" class="col-sm-2 control-label">学号</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="studyno" id="studyno" placeholder="请填写被资助学生的学号">
+    </div>
+  </div>
+  <!--考勤日期-->
+  <div class="form-group">
+    <label for="date" class="col-sm-2 control-label">考勤日期</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="date" id="date" placeholder="2016-8">
+    </div>
+  </div>
+  <!--节次-->
+  <div class="form-group">
+    <label for="section" class="col-sm-2 control-label">节次</label>
+    <div class="col-sm-10">
+      <div class="input-group">
+        <input type="text" class="form-control" name="section" placeholder="5-6" aria-describedby="basic-addon1">
+        <span class="input-group-addon" id="basic-addon1">节</span>
+      </div>
+    </div>
+  </div>
+  <!--活动内容-->
+  <div class="form-group">
+    <label for="content" class="col-sm-2 control-label">活动内容</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="content" id="content" placeholder="计算机基础第5章">
+    </div>
+  </div>
+  <!--资助原因-->
+  <div class="form-group">
+    <label for="status" class="col-sm-2 control-label">考勤状态</label>
+    <div class="col-sm-10">
+      <label class="radio-inline">
+        <input type="radio" name="status" value="0"  checked>正常
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="status" value="1"> 请假
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="status" value="2"> 迟到
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="status" value="3"> 早退
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="status" value="4"> 旷课
+      </label>
+    </div>
+  </div>
+  <!--提交按钮-->
+  <button type="submit" class="col-md-12 btn btn-default">保存</button>
+</form>

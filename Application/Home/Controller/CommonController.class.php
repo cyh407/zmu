@@ -1,0 +1,13 @@
+<?php
+namespace Home\Controller;
+use Think\Controller;
+class CommonController extends Controller {
+  public function _initialize(){
+		if(!isset($_SESSION['userid'])||session('dutyid')!=2){
+			$this->redirect('Index/index/index');
+		}
+	}
+  public function index(){
+    $this->show("");
+  }
+}

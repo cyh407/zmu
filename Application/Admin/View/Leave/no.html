@@ -1,0 +1,65 @@
+<style type="text/css">
+  textarea{
+    width:100%;
+  }
+</style>
+<form action="{:U('Admin/Leave/noHandle')}" method="post" class="form-horizontal">
+  <input type="hidden" value="{$leave.id}" name="id">
+  <!--姓名-->
+  <div class="form-group">
+    <label for="name" class="col-sm-2 control-label">姓名</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="name" id="name" value="{$leave.name}" readonly>
+    </div>
+  </div>
+  <!--学号-->
+  <div class="form-group">
+    <label for="studyno" class="col-sm-2 control-label">学号</label>
+    <div class="col-sm-10">
+      <input type="number" class="form-control" id="studyno" name="studyno" value="{$leave.studyno}" readonly>
+    </div>
+  </div>
+  <!--年级-->
+  <div class="form-group">
+    <label for="grade" class="col-sm-2 control-label">年级</label>
+    <div class="col-sm-10">
+      <input type="number" class="form-control" id="grade" name="grade" value="{$leave.grade}" readonly>
+    </div>
+  </div>
+  <!--班级-->
+  <div class="form-group">
+    <label for="calss" class="col-sm-2 control-label">班级</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="class" name="class" value="{$leave.class}" readonly>
+    </div>
+  </div>
+  <!--家庭电话-->
+  <div class="form-group">
+    <label for="homephone" class="col-sm-2 control-label">家庭电话</label>
+    <div class="col-sm-10">
+      <input type="tel" class="form-control" name="homephone" value="{$leave.homephone}" readonly>
+    </div>
+  </div>
+  <!--个人电话-->
+  <div class="form-group">
+    <label for="phone" class="col-sm-2 control-label">个人电话</label>
+    <div class="col-sm-10">
+      <input type="tel" class="form-control" name="phone" value="{$leave.phone}" readonly>
+    </div>
+  </div>
+  <!--请假内容-->
+  <div class="form-group">
+    <label for="content" class="col-sm-2 control-label">请假内容</label>
+    <div class="col-sm-10">
+      <textarea class="form-control" name="content" readonly>{$leave.content}</textarea>
+    </div>
+  </div>
+  <!--拒绝原因-->
+  <div class="form-group">
+    <label for="reason" class="col-sm-2 control-label">拒绝原因</label>
+    <div class="col-sm-10">
+      <textarea  class="form-control" name="reason"></textarea>
+    </div>
+  </div>
+  <button type="submit" class="col-md-12 btn btn-danger">拒绝</button>
+</form>

@@ -1,0 +1,17 @@
+body{
+	padding:0;
+}
+.topImage{
+	width:970px;
+	height:100px;
+	margin:0 auto;
+	background: #00FF00 url('../img/top.png') no-repeat 0 center;
+}
+.topbar{
+	padding:0;
+	background-color:#3eabfe;
+	margin-bottom: 20px;
+}
+.leftBar{
+	padding:0;
+}

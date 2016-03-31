@@ -1,0 +1,31 @@
+
+<h2 class="sub-header ">请假列表</h2>
+
+  <table class="table table-bordered table-hover">
+    <thead>
+      <tr>
+        <th>姓名</th>
+        <th>学号</th>
+        <th>请假内容</th>
+        <th>操作</th>
+      </tr>
+    </thead>
+    <tbody>
+      <foreach name="leave" item="v">
+        <tr>
+          <td>{$v.name}</td>
+          <td>{$v.studyno}</td>
+          <td>{$v.content}</td>
+          <td>
+          <if condition="$v['status'] eq 0">
+            <a class="btn btn-sm btn-success" href="{:U('Admin/Leave/accept',array('id'=>$v['id']))}">同意</a>
+            <a class="btn btn-sm btn-danger" href="{:U('Admin/Leave/no',array('id'=>$v['id']))}">拒绝</a>
+            <elseif condition="$v['status'] eq 1"/>同意
+            <else />不同意
+          </if>
+          </td>
+        </tr>
+      </foreach>
+    </tbody>
+  </table>
+  <div class="page">{$page}</div>

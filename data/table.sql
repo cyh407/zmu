@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS `zmu_notice` (
 /*用户表*/
 CREATE TABLE `zmu_user` (
 	`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-	`username` char(20) NOT NULL,
+	`username` char(10) NOT NULL,
 	`password` char(32) NOT NULL DEFAULT 'e10adc3949ba59abbe56e057f20f883e',
 	`logintime` int(10) unsigned NOT NULL DEFAULT '0',
 	`dutyid` smallint(3) NOT NULL DEFAULT '0',/*1=管理员；2=学生*/
@@ -52,6 +52,9 @@ CREATE TABLE `zmu_student` (
   UNIQUE KEY `studyno` (`studyno`)
   /*FOREIGN KEY (`userid`) REFERENCES `zmu_user` (`id`)*/
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*在学生基本信息表中添加4/6级成绩*/
+alter table `zmu_student` add `cet4` int(10) unsigned;
+alter table `zmu_student` add `cet6` int(10) unsigned;
 
 /*学生干部表*/
 CREATE TABLE `zmu_duty` (
@@ -68,9 +71,57 @@ CREATE TABLE `zmu_master` (
 
 /*学生获奖表*/
 CREATE TABLE `zmu_certificate` (
-  `id` int(10) unsigned NOT NULL,
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `name` varchar(19) not null,/*获奖名称*/
   `studyno` char(10),/*学号*/
   `image` varchar(50),/*奖状或证书图片的地址*/
-  `smallImage` varchar(50)/*缩略图名称*/
+  `smallImage` varchar(50),/*缩略图名称*/
+  `userid` int(10) unsigned not null
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*在学生获奖表中添加一个学生获奖时间*/
+alter table `zmu_certificate` add `period` char(30);
+
+/*学生奖金表*/
+CREATE TABLE `zmu_funding` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT ,
+  `studyno` char(10),/*学号*/
+  `source` varchar(30) not null,/*资助来源*/
+  `money` int unsigned,/*资助金额*/
+  `period` varchar(20),/*资助时间*/
+  `reason` varchar(50),/*资助原因*/
+  `time` int(10) unsigned not null,
+  	PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*学生考勤*/
+CREATE TABLE `zmu_attendance` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT ,
+  `studyno` char(10),/*学号*/
+  `date` varchar(10) not null,/*考勤日期*/
+  `section` varchar(10),/*节次*/
+  `content` varchar(20),/*活动内容*/
+  `status` tinyint(6) unsigned default 0,/*0=正常，1=请假，2=迟到，3=早退，4=旷课*/
+  `time` int(10) unsigned not null,/*录入时间*/
+  	PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*奖学金*/
+CREATE TABLE `zmu_scholarship` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT ,
+  `studyno` char(10),/*学号*/
+  `name` char(20),/*奖学金名称*/
+  `money` int unsigned,/*资助金额*/
+  `period` varchar(20),/*资助时间*/
+  `time` int(10) unsigned not null,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*请假*/
+CREATE TABLE `zmu_leave` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT ,
+  `studyno` char(10),/*学号*/
+  `content` varchar(100) not null,/*请假内容*/
+  `status` tinyint(6) unsigned default 0,/*0=无处理，1=同意 2=拒绝*/
+  `time` int(10) unsigned not null,/*录入时间*/
+  	PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+alter table `zmu_leave` add `reason` varchar(200);

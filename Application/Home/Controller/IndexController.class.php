@@ -1,8 +1,62 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class IndexController extends Controller {
+class IndexController extends CommonController {
     public function index(){
-        $this->show('<style type="text/css">*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} body{ background: #fff; font-family: "微软雅黑"; color: #333;font-size:24px} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.8em; font-size: 36px } a,a:hover{color:blue;}</style><div style="padding: 24px 48px;"> <h1>:)</h1><p>欢迎使用 <b>ThinkPHP</b>！</p><br/>版本 V{$Think.version}</div><script type="text/javascript" src="http://ad.topthink.com/Public/static/client.js"></script><thinkad id="ad_55e75dfae343f5a1"></thinkad><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9347272" charset="UTF-8"></script>','utf-8');
+      $this->notice = M('notice')->order('time DESC')->limit(6)->select();
+      $info = M('student');
+      $this->info = $info->where(array('studyno'=>session('username')))->find();
+      $this->certificate = M('certificate')->where(array('studyno'=>session('username')))->select();
+      $this->funding = M('funding')->where(array('studyno'=>session('username')))->select();
+      $this->scholarship = M('scholarship')->where(array('studyno'=>session('username')))->select();
+      $this->attendance = M('attendance')->where(array('studyno'=>session('username'),'status'=>array('neq',0)))->select();
+      $this->leave = M('leave')->order('time DESC')->where(array('studyno'=>session('username')))->limit(6)->select();
+      $this->display();
+    }
+    public function leave(){
+      $leaveContent = I('leaveContent');
+      $data = array(
+        'content'=>$leaveContent,
+        'studyno'=>session('username'),
+        'time'=>time(),
+        'status'=>0
+      );
+      $rt = array(
+        'status'=>1,
+        'msg'=>'请假条已提交，请耐心等待回复。',
+        'leaveContent'=>$leaveContent,
+      );
+      if(M('leave')->add($data)){
+
+      }else{
+        $rt['status']=0;
+        $rt['msg']="提交失败";
+      }
+      $this->ajaxReturn($rt);
+    }
+    public function password(){
+      $this->display();
+    }
+    public function setPassword(){
+      $newPassword = I('newPassword');
+      $newPassword1 = I('newPassword1');
+      if($newPassword1==$newPassword){
+
+      }else{
+        $this->error('两次新密码设置不统一，请重新设置');
+      }
+      if(M('user')->where(array('username'=>session('username'),'password'=>md5(I('password'))))->find()){
+
+      }else{
+        $this->error('原密码输入错误');
+      }
+      if(M('user')->where(array('id'=>session('userid')))->setField('password',md5($newPassword))){
+        $this->success('密码修改成功');
+      }
+      $this->error('密码修改失败');
+    }
+    public function notice($id=0){
+      $this->notice=M('notice')->find($id);
+      $this->display();
     }
 }

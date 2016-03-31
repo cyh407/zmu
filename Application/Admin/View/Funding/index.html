@@ -1,0 +1,32 @@
+
+<h2 class="sub-header ">学生资助 <a href="{:U('Admin/Funding/add')}" type="button" class="add btn btn-primary">添加资助</a></h2>
+
+  <table class="table table-bordered table-hover">
+    <thead>
+      <tr>
+        <th>姓名</th>
+        <th>学号</th>
+        <th>资助时间</th>
+        <th>资助金额</th>
+        <th>资助来源</th>
+        <th>资助原因</th>
+        <th>操作</th>
+      </tr>
+    </thead>
+    <tbody>
+      <foreach name="funding" item="v">
+        <tr>
+          <td>{$v.name}</td>
+          <td>{$v.studyno}</td>
+          <td>{$v.period}</td>
+          <td>{$v.money}</td>
+          <td>{$v.source}</td>
+          <td>{$v.reason}</td>
+          <td>
+            <a class="btn btn-sm btn-danger" href="{:U('Admin/Funding/delete',array('id'=>$v['id']))}">删除</a>
+          </td>
+        </tr>
+      </foreach>
+    </tbody>
+  </table>
+  <div class="page">{$page}</div>

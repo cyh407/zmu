@@ -1,0 +1,2939 @@
+[ 2016-02-26T19:43:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+
+[ 2016-02-26T19:43:33+08:00 ] 127.0.0.1 /Application/Index/View/Public/images/companylogo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2016-02-26T19:43:34+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-02-26T19:43:49+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 262 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2016-02-26T19:45:44+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 262 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-02-26T19:45:56+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 262 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-02-26T19:58:58+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 287 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-02-26T20:00:48+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 287 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-02-26T20:01:12+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 287 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2016-02-26T20:01:45+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 287 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-02-26T20:01:58+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 287 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-02-26T20:02:00+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 287 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-02-26T20:03:15+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 290 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-02-26T20:03:26+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 290 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2016-02-26T20:03:36+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 290 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-02-26T20:04:21+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 291 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-02-26T20:04:44+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-02-26T20:06:05+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-02-26T20:06:54+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-02-26T20:07:38+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-02-26T20:08:42+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2016-02-26T20:09:04+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-02-26T20:10:43+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-02-26T20:10:52+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:11:13+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-02-26T20:11:13+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:11:15+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-02-26T20:11:15+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:11:38+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-02-26T20:11:39+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:15:17+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-02-26T20:15:17+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:17:23+08:00 ] 127.0.0.1 /Home/Index/leave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-02-26T20:17:26+08:00 ] 127.0.0.1 /Home/Index/leave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-02-26T20:18:03+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2016-02-26T20:18:03+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:18:10+08:00 ] 127.0.0.1 /Home/Index/leave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2016-02-26T20:18:13+08:00 ] 127.0.0.1 /Home/Index/leave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2016-02-26T20:18:26+08:00 ] 127.0.0.1 /Home/Index/leave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-02-26T20:18:33+08:00 ] 127.0.0.1 /Home/Index/leave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-02-26T20:18:57+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2016-02-26T20:18:57+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:21:30+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-02-26T20:21:40+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-02-26T20:21:40+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:21:45+08:00 ] 127.0.0.1 /Home/Index/leave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-02-26T20:22:18+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-02-26T20:22:18+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:22:21+08:00 ] 127.0.0.1 /Home/Index/leave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-02-26T20:23:30+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2016-02-26T20:23:30+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:23:34+08:00 ] 127.0.0.1 /Home/Index/leave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-02-26T20:30:16+08:00 ] 127.0.0.1 /Home/Index/leave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0090s ]
+SQL: INSERT INTO `zmu_leave` (`content`,`studyno`,`time`,`status`) VALUES ('肚子疼，周四和周五请假两天','1611013467','1456489816','0') [ RunTime:0.0011s ]
+
+[ 2016-02-26T20:30:39+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-02-26T20:30:39+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:32:27+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 305 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-02-26T20:32:27+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:33:22+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-02-26T20:33:22+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:34:53+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-02-26T20:34:53+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:35:11+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2016-02-26T20:35:11+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:36:21+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-02-26T20:36:22+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:37:29+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-02-26T20:37:29+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:38:02+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-02-26T20:38:02+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:43:47+08:00 ] 127.0.0.1 /Home/Index/leave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0098s ]
+SQL: INSERT INTO `zmu_leave` (`content`,`studyno`,`time`,`status`) VALUES ('今天不想上课了','1611013467','1456490627','0') [ RunTime:0.0008s ]
+
+[ 2016-02-26T20:44:18+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467' LIMIT 6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-02-26T20:44:18+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:44:29+08:00 ] 127.0.0.1 /Home/Index/leave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0097s ]
+SQL: INSERT INTO `zmu_leave` (`content`,`studyno`,`time`,`status`) VALUES ('测试提示窗口','1611013467','1456490669','0') [ RunTime:0.0008s ]
+
+[ 2016-02-26T20:44:36+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467' LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-02-26T20:44:36+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:45:07+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-02-26T20:45:24+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467' ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-02-26T20:45:24+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:46:38+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467' ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-02-26T20:46:38+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:46:40+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467' ORDER BY time DESC LIMIT 6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-02-26T20:46:40+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:47:12+08:00 ] 127.0.0.1 /Home/Index/leave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0096s ]
+SQL: INSERT INTO `zmu_leave` (`content`,`studyno`,`time`,`status`) VALUES ('天泰冷了，不想出去','1611013467','1456490832','0') [ RunTime:0.0013s ]
+
+[ 2016-02-26T20:47:17+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467' ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2016-02-26T20:47:18+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:47:29+08:00 ] 127.0.0.1 /Home/Index/leave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0098s ]
+SQL: INSERT INTO `zmu_leave` (`content`,`studyno`,`time`,`status`) VALUES ('测试请假基加利条数','1611013467','1456490849','0') [ RunTime:0.0010s ]
+
+[ 2016-02-26T20:48:21+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467' ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-02-26T20:48:21+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:48:40+08:00 ] 127.0.0.1 /Home/Index/leave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0086s ]
+SQL: INSERT INTO `zmu_leave` (`content`,`studyno`,`time`,`status`) VALUES ('看看最多能显示多少条记录','1611013467','1456490920','0') [ RunTime:0.0007s ]
+
+[ 2016-02-26T20:48:47+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467' ORDER BY time DESC LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-02-26T20:48:47+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:49:39+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467' ORDER BY time DESC LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-02-26T20:49:39+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:49:45+08:00 ] 127.0.0.1 /Home/Index/leave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0092s ]
+SQL: INSERT INTO `zmu_leave` (`content`,`studyno`,`time`,`status`) VALUES ('asdfasfasddfasdf','1611013467','1456490985','0') [ RunTime:0.0006s ]
+
+[ 2016-02-26T20:49:55+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467' ORDER BY time DESC LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-02-26T20:49:55+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:51:24+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467' ORDER BY time DESC LIMIT 6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 310 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-02-26T20:51:24+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:52:43+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467' ORDER BY time DESC LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-02-26T20:52:43+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:52:52+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467' ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-02-26T20:52:52+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:55:20+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467' ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-02-26T20:55:20+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:55:24+08:00 ] 127.0.0.1 /Home/Index/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-02-26T20:55:24+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T20:55:26+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T21:02:50+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467' ORDER BY time DESC LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-02-26T21:02:50+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T21:02:52+08:00 ] 127.0.0.1 /Home/Index/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-02-26T21:02:52+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T21:03:00+08:00 ] 127.0.0.1 /Home/Index/setPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-02-26T21:03:02+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T21:03:08+08:00 ] 127.0.0.1 /Home/Index/setPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-02-26T21:03:12+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T21:08:03+08:00 ] 127.0.0.1 /Home/Index/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-02-26T21:08:20+08:00 ] 127.0.0.1 /Home/Index/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-02-26T21:08:42+08:00 ] 127.0.0.1 /Home/Index/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+
+[ 2016-02-26T21:09:04+08:00 ] 127.0.0.1 /Home/Index/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-02-26T21:09:38+08:00 ] 127.0.0.1 /Home/Index/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-02-26T21:09:40+08:00 ] 127.0.0.1 /Home/Index/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-02-26T21:10:11+08:00 ] 127.0.0.1 /Home/Index/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-02-26T21:10:11+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T21:10:23+08:00 ] 127.0.0.1 /Home/Index/setPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `zmu_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_user` WHERE `username` = '1611013467' AND `password` = '912ec803b2ce49e4a541068d495ab570' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+
+[ 2016-02-26T21:10:27+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T21:10:38+08:00 ] 127.0.0.1 /Home/Index/setPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `zmu_user` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `zmu_user` WHERE `username` = '1611013467' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `zmu_user` SET `password`='343d9040a671c45832ee5381860e2996' WHERE `id` = 9 [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001768s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001918s ]
+
+[ 2016-02-26T21:10:39+08:00 ] 127.0.0.1 /Home/Index/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-02-26T21:10:40+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T21:10:56+08:00 ] 127.0.0.1 /Home/Index/setPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `zmu_user` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `zmu_user` WHERE `username` = '1611013467' AND `password` = '343d9040a671c45832ee5381860e2996' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `zmu_user` SET `password`='e10adc3949ba59abbe56e057f20f883e' WHERE `id` = 9 [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001972s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001800s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001946s ]
+
+[ 2016-02-26T21:10:57+08:00 ] 127.0.0.1 /Home/Index/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2016-02-26T21:10:57+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T21:11:26+08:00 ] 127.0.0.1 /Home/Index/setPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `zmu_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_user` WHERE `username` = '1611013467' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `zmu_user` SET `password`='343d9040a671c45832ee5381860e2996' WHERE `id` = 9 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000898s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001003s ]
+
+[ 2016-02-26T21:11:27+08:00 ] 127.0.0.1 /Home/Index/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-02-26T21:11:27+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T21:11:37+08:00 ] 127.0.0.1 /Home/Index/setPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `zmu_user` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `zmu_user` WHERE `username` = '1611013467' AND `password` = '343d9040a671c45832ee5381860e2996' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `zmu_user` SET `password`='e10adc3949ba59abbe56e057f20f883e' WHERE `id` = 9 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001159s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001297s ]
+
+[ 2016-02-26T21:11:39+08:00 ] 127.0.0.1 /Home/Index/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2016-02-26T21:11:39+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T21:13:44+08:00 ] 127.0.0.1 /Home/Index/setPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `zmu_user` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `zmu_user` WHERE `username` = '1611013467' AND `password` = '343d9040a671c45832ee5381860e2996' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-02-26T21:13:47+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T21:14:02+08:00 ] 127.0.0.1 /Home/Index/setPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `zmu_user` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `zmu_user` WHERE `username` = '1611013467' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `zmu_user` SET `password`='e10adc3949ba59abbe56e057f20f883e' WHERE `id` = 9 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+
+[ 2016-02-26T21:14:05+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T21:14:17+08:00 ] 127.0.0.1 /Home/Index/setPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `zmu_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_user` WHERE `username` = '1611013467' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `zmu_user` SET `password`='b2ca678b4c936f905fb82f2733f5297f' WHERE `id` = 9 [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001107s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001222s ]
+
+[ 2016-02-26T21:14:18+08:00 ] 127.0.0.1 /Home/Index/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-02-26T21:14:18+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T21:14:30+08:00 ] 127.0.0.1 /Home/Index/setPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `zmu_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_user` WHERE `username` = '1611013467' AND `password` = 'b2ca678b4c936f905fb82f2733f5297f' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `zmu_user` SET `password`='e10adc3949ba59abbe56e057f20f883e' WHERE `id` = 9 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001162s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000005s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001271s ]
+
+[ 2016-02-26T21:14:31+08:00 ] 127.0.0.1 /Home/Index/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2016-02-26T21:14:31+08:00 ] 127.0.0.1 /Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-26T21:14:34+08:00 ] 127.0.0.1 /Application/Index/View/Public/images/companylogo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+

@@ -1,0 +1,37 @@
+<form action="{:U('Admin/Scholarship/addHandle')}" method="post" class="form-horizontal">
+  <!--学号-->
+  <div class="form-group">
+    <label for="studyno" class="col-sm-2 control-label">学号</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="studyno" id="studyno" placeholder="请填写获得奖学金的学生学号">
+    </div>
+  </div>
+  <!--奖学金金额-->
+  <div class="form-group">
+    <label for="money" class="col-sm-2 control-label">奖学金金额</label>
+    <div class="col-sm-10">
+      <div class="input-group">
+        <input type="text" class="form-control" name="money" placeholder="3000" aria-describedby="basic-addon1">
+        <span class="input-group-addon" id="basic-addon1">元</span>
+      </div>
+    </div>
+  </div>
+  <!--奖学金名称-->
+  <div class="form-group">
+    <label for="name" class="col-sm-2 control-label">奖学金名称</label>
+    <div class="col-sm-10">
+      <div class="input-group">
+        <input type="text" class="form-control" name="name" placeholder="系三等奖学金">
+      </div>
+    </div>
+  </div>
+  <!--奖学金时间-->
+  <div class="form-group">
+    <label for="period" class="col-sm-2 control-label">奖学金时间</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="period" id="period" placeholder="2016-2017学年第一学期">
+    </div>
+  </div>
+  <!--提交按钮-->
+  <button type="submit" class="col-md-12 btn btn-default">保存</button>
+</form>

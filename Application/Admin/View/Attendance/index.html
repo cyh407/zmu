@@ -1,0 +1,32 @@
+
+<h2 class="sub-header ">学生考勤 <a href="{:U('Admin/Attendance/add')}" type="button" class="add btn btn-primary">添加考勤状态</a></h2>
+
+  <table class="table table-bordered table-hover">
+    <thead>
+      <tr>
+        <th>姓名</th>
+        <th>学号</th>
+        <th>考勤日期</th>
+        <th>节次</th>
+        <th>活动内容</th>
+        <th>状态</th>
+        <th>操作</th>
+      </tr>
+    </thead>
+    <tbody>
+      <foreach name="attendance" item="v">
+        <tr>
+          <td>{$v.name}</td>
+          <td>{$v.studyno}</td>
+          <td>{$v.date}</td>
+          <td>{$v.section}</td>
+          <td>{$v.content}</td>
+          <td>{$v.status}</td>
+          <td>
+            <a class="btn btn-sm btn-danger" href="{:U('Admin/Funding/delete',array('id'=>$v['id']))}">删除</a>
+          </td>
+        </tr>
+      </foreach>
+    </tbody>
+  </table>
+  <div class="page">{$page}</div>

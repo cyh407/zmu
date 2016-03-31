@@ -1,0 +1,42 @@
+<form action="{:U('Admin/Funding/addHandle')}" method="post" class="form-horizontal">
+  <!--学号-->
+  <div class="form-group">
+    <label for="studyno" class="col-sm-2 control-label">学号</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="studyno" id="studyno" placeholder="请填写被资助学生的学号">
+    </div>
+  </div>
+  <!--资助来源-->
+  <div class="form-group">
+    <label for="source" class="col-sm-2 control-label">资助来源</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="source" id="source" placeholder="国家困难补助／校级优秀学生">
+    </div>
+  </div>
+  <!--资助金额-->
+  <div class="form-group">
+    <label for="money" class="col-sm-2 control-label">资助金额</label>
+    <div class="col-sm-10">
+      <div class="input-group">
+        <input type="text" class="form-control" name="money" placeholder="3000" aria-describedby="basic-addon1">
+        <span class="input-group-addon" id="basic-addon1">元</span>
+      </div>
+    </div>
+  </div>
+  <!--资助时间-->
+  <div class="form-group">
+    <label for="period" class="col-sm-2 control-label">资助时间</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="period" id="period" placeholder="2016-2017学年第一学期">
+    </div>
+  </div>
+  <!--资助原因-->
+  <div class="form-group">
+    <label for="reason" class="col-sm-2 control-label">资助原因</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="reason" id="reason" placeholder="家庭困难，学习优秀">
+    </div>
+  </div>
+  <!--提交按钮-->
+  <button type="submit" class="col-md-12 btn btn-default">保存</button>
+</form>

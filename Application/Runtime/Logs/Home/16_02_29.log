@@ -1,0 +1,155 @@
+[ 2016-02-29T15:57:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+
+[ 2016-02-29T15:57:07+08:00 ] 127.0.0.1 /Application/Index/View/Public/images/companylogo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+
+[ 2016-02-29T15:57:07+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+
+[ 2016-02-29T16:09:38+08:00 ] 127.0.0.1 /Application/Index/View/Public/images/companylogo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-02-29T16:09:57+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467' ORDER BY time DESC LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-02-29T16:10:02+08:00 ] 127.0.0.1 /Home/Notice/index/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+ERR: 无法加载控制器:Notice
+
+[ 2016-02-29T16:10:10+08:00 ] 127.0.0.1 /Home/Index/password
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-02-29T16:10:28+08:00 ] 127.0.0.1 /Home/Index/leave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0088s ]
+SQL: INSERT INTO `zmu_leave` (`content`,`studyno`,`time`,`status`) VALUES ('jhkkhkhkhk','1611013467','1456733428','0') [ RunTime:0.0007s ]
+
+[ 2016-02-29T16:10:38+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `zmu_notice` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `zmu_notice` ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zmu_student` WHERE `studyno` = '1611013467' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_certificate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zmu_certificate` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_funding` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zmu_funding` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_scholarship` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zmu_scholarship` WHERE `studyno` = '1611013467'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_attendance` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_attendance` WHERE `studyno` = '1611013467' AND `status` <> 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zmu_leave` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zmu_leave` WHERE `studyno` = '1611013467' ORDER BY time DESC LIMIT 6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: name /Users/cyh/Desktop/zmu/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2016-02-29T16:12:02+08:00 ] 127.0.0.1 /Application/Index/View/Public/images/companylogo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2016-02-29T16:12:17+08:00 ] 127.0.0.1 /Application/Index/View/Public/images/companylogo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2016-02-29T16:25:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-02-29T16:25:04+08:00 ] 127.0.0.1 /Application/Index/View/Public/images/companylogo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+

@@ -3,7 +3,7 @@ namespace Admin\Controller;
 use Think\Controller;
 class MasterController extends CommonController {
   public function index(){
-    $sql = "select zmu_duty.name as dutyName,zmu_master.studyno,zmu_student.name,zmu_student.grade,zmu_student.`class` from zmu_master left join zmu_duty on zmu_master.id=zmu_duty.id left join zmu_student on zmu_master.studyno = zmu_student.studyno";
+    $sql = "select zmu_duty.name as dutyName,zmu_master.studyno,zmu_student.name,zmu_student.phone,zmu_student.grade,zmu_student.`class` from zmu_master left join zmu_duty on zmu_master.id=zmu_duty.id left join zmu_student on zmu_master.studyno = zmu_student.studyno";
     $this->master = M()->query($sql);
     $this->display();
   }
